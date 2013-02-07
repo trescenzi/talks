@@ -1,0 +1,81 @@
+/* 
+Thoms's Theme - deck.js
+
+author: @trescenzi
+*/
+
+.deck-container .slide .no-border {
+    border: 0;
+}
+.deck-container .slide .accent {
+    color: rgb(250, 75, 0);
+}
+.deck-container .slide .dark {
+    color: #333;
+}
+
+.deck-container {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.5em;
+    background: #fff;
+    color: #333;
+}
+.deck-container section {
+    height: 100%;
+}
+.deck-container .slide img {
+    max-height: 70%;
+}
+.deck-container .slide {
+    background-color: #fff;
+    border: none;
+}
+.deck-container .slide h1 {
+    color: rgb(250, 75, 0);
+    font-family: 'Patua One', Georgia, serif;
+    font-weight: normal;
+}
+.deck-container .slide h2 {
+    border-bottom: solid 1px rgb(250, 75, 0);
+    color: rgb(250, 75, 0);
+    font-family: 'Patua One', Georgia, serif;
+    font-weight: normal;
+}
+.deck-container .slide h3 {
+    /*font-family: 'Patua One', Georgia, serif;*/
+    color: #888;
+}
+.deck-container .slide li {
+    font-size: 2em;
+}
+.deck-container .slide pre {
+  padding: 1em;
+}
+.deck-container .slide code {
+    padding: .2em .5em .3em;
+}
+.deck-container .slide pre code {
+    padding: 0;
+}
+
+.deck-container .slide blockquote {
+    font-size: 2em;
+    font-family: Georgia, serif;
+    font-style: italic;
+    padding: .1em .75em;
+    border-left: 30px solid rgb(250, 75, 0);
+    border-left: 30px solid rgba(250, 75, 0, 0.5);
+}
+.deck-container .slide .vcenter blockquote {
+    text-align: left;
+}
+.deck-container .slide blockquote p {
+    margin: 0;
+}
+.deck-container .slide blockquote cite {
+    font-size: .5em;
+    font-family: "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #888;
+}
