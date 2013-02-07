@@ -30,15 +30,15 @@ author: @trescenzi
 }
 .deck-container .slide h1 {
     color: #5F6B77;
-    font-weight: bold;
+    
 }
 .deck-container .slide h2 {
     color: #FF6600;
-
-    font-weight: normal;
+    font-weight: bold;
+    border-bottom: solid 1px #5F6B77;
 }
 .deck-container .slide h3 {
-    color: #5F6B77;
+    color: #FF6600;
 }
 .deck-container .slide li {
     font-size: 2em;
