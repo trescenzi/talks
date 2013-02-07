@@ -65,7 +65,7 @@
       <ul>
         <section class="slide"><li>Can be very appropriate and readable</li></section>
         <section class="slide"><pre class="prettyprint"><code>
-          char underCase;
+          char underCase='c';
           switch (underCase){
             case 'a':
              return 'A';
@@ -116,19 +116,59 @@
       <ul>
         <section class="slide"><li>Up until now my examples have all had a huge error. Anyone catch it?</li></section>
         <section class="slide">
-          <li>I wasn't using break</li>
           <pre class="prettyprint"><code>
           int x=1;
           switch (x){
             case 1:
-             system.out.println("It's 1!");<section class="slide">break;</section>
+             system.out.println("It's 1!");
             case 2:
-              system.out.println("It's 2!");<span class="slide">break;</span>
+              system.out.println("It's 2!");
             default
               system.out.println("I only like 1 and 2");
           }
         </code></pre>
+        <pre class="prettyprint"><code>
+          int x=1;
+          switch (x){
+            case 1:
+             system.out.println("It's 1!");break;
+            case 2:
+              system.out.println("It's 2!");break;
+            default
+              system.out.println("I only like 1 and 2");
+          }
+        </code></pre></section>
       </ul>
+    </section>
+
+    <section class="slide" id="fuck-break">
+      <div class="vcenter">
+        <h1>break; sucks</h1>
+      </div>
+    </section>
+
+    <section class="slide" id="ugly-breaks">
+      <h2>Ugly Breaks</h2>
+      <ul>
+        <section class="slide"><li>Sometimes you want it other times you don't</li></section>
+        <section class="slide"><pre class="prettyprint"><code>
+          char underCase='c';
+          switch (underCase){
+            case 'a':
+             return 'A';
+            case 'b':
+              return 'B';
+            //and so on
+          }
+        </code></pre></section>
+       <section class="slide"><li>Actually works as intended</li></section>
+      </ul>
+    </section>
+
+    <section class="slide" id="switch-danger">
+      <div class="vcenter">
+        <h3>switch is enticing<h3><div class="slide"><h1>but is dangerous and not necessary</h1></div>
+      </div>
     </section>
 
     <section class="slide" id="fix-it">
