@@ -3,7 +3,12 @@ Thoms's Theme - deck.js
 
 author: @trescenzi
 */
-
+.deck-container {
+    font-family: "Oxygen";
+    font-size: 1.5em;
+    background: #F5EDE3;
+    color: #333;
+}
 .deck-container .slide .no-border {
     border: 0;
 }
@@ -13,12 +18,6 @@ author: @trescenzi
 .deck-container .slide .dark {
     color: #333;
 }
-.deck-container {
-    font-family: "Oxygen";
-    font-size: 1.5em;
-    background: #fff;
-    color: #333;
-}
 .deck-container section {
     height: 100%;
 }
@@ -26,19 +25,20 @@ author: @trescenzi
     max-height: 70%;
 }
 .deck-container .slide {
-    background-color: #fff;
+    background-color: #F5EDE3;
     border: none;
 }
 .deck-container .slide h1 {
-    color: rgb(250, 75, 0);
-    font-weight: normal;
+    color: #5F6B77;
+    font-weight: bold;
 }
 .deck-container .slide h2 {
-    color: rgb(250, 75, 0);
+    color: #FF6600;
+
     font-weight: normal;
 }
 .deck-container .slide h3 {
-    color: #888;
+    color: #5F6B77;
 }
 .deck-container .slide li {
     font-size: 2em;
