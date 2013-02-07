@@ -32,17 +32,14 @@ author: @trescenzi
 }
 .deck-container .slide h1 {
     color: rgb(250, 75, 0);
-    font-family: 'Patua One', Georgia, serif;
     font-weight: normal;
 }
 .deck-container .slide h2 {
     border-bottom: solid 1px rgb(250, 75, 0);
     color: rgb(250, 75, 0);
-    font-family: 'Patua One', Georgia, serif;
     font-weight: normal;
 }
 .deck-container .slide h3 {
-    /*font-family: 'Patua One', Georgia, serif;*/
     color: #888;
 }
 .deck-container .slide li {
