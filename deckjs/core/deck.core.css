@@ -385,7 +385,7 @@ body.deck-container {
     -o-transform: none !important;
     -ms-transform: none !important;
     transform: none !important;
-    padding: 0 !important;
+    padding: 10% !important;
     position: static !important;
   }
 
