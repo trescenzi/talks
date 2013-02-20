@@ -7,11 +7,11 @@ author: @trescenzi
 .deck-container {
     font-family: "Oxygen";
     font-size: 1.5em;
-    background: #BDD09F;
+    background: #F5EDE3;
     color: #333;
 }
 .deck-container .slide {
-    background-color: #BDD09F;
+    background-color: #F5EDE3;
     border: none;
 }
 .deck-container .slide .no-border {
@@ -35,14 +35,14 @@ author: @trescenzi
     
 }
 .deck-container .slide h2 {
-    color: #d57500;
+    color: #668d3c;
     font-weight: bold;
     font-family: "Volkhov";
     border-bottom: solid 1px #5F6B77;
 }
 .deck-container .slide h3 {
     font-family: "Volkhov";
-    color: #668d3c;
+    color: #853b1b;
 }
 .deck-container .slide p{
     color: #613318;
