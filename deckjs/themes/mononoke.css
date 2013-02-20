@@ -35,7 +35,7 @@ author: @trescenzi
     
 }
 .deck-container .slide h2 {
-    color: #668d3c;
+    color: #d57500;
     font-weight: bold;
     font-family: "Volkhov";
     border-bottom: solid 1px #5F6B77;
@@ -45,7 +45,7 @@ author: @trescenzi
     color: #668d3c;
 }
 .deck-container .slide p{
-    color: #444;
+    color: #613318;
 }
 .deck-container .slide li {
     font-size: 1.75em;
@@ -63,7 +63,7 @@ author: @trescenzi
 
 }
 .deck-container .slide blockquote {
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: "Volkhov";
     font-style: italic;
     padding: .1em .75em;    
