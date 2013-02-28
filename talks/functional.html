@@ -211,6 +211,64 @@
       <div class="vcenter"><h3>end?</h3></div>
       </section>
 
+      <section class="slide" id="static">
+      <h2>Typing</h2>
+      <ul>
+        <div class="slide"><li>Everything has a type</li></div>
+        <div class="slide"><li>Types can be defined</li></div>
+        <div class="slide"><pre class="prettyprint"><code>
+            add :: Int -> Int -> Int
+        </code></pre></div>
+        <div class="slide"><li>Or they are inferred</li></div>
+        <div class="slide"><pre class="prettyprint"><code>
+            add x y = x + y
+            :t add 
+              Num a => a -> a -> a
+        </code></pre></div>
+        </section>
+
+        <section class="slide" id="curry">
+        <h2>Currying</h2>
+        <ul>
+          <div class="slide"><li>Functions only have one parameter</li></div>
+          <div class="slide"><center><h3>Even functions with two parameters</h3></center></div>
+          <div class="slide"><pre class="prettyprint"><code>
+              add x y = x + y
+              add3 = add 3
+              add3 5
+            </code></pre></div>
+            <div class="slide"><li>That is what the -&gt; means</li></div>
+        <div class="slide"><h3>Kinda...</h3></div>
+        </ul>
+        </section>
+        
+        <section class="slide" id="lazy">
+        <h2>Lazy</h2>
+        <ul>
+            <div class="slide"><li>Don't do things till you have to</li></div>
+            <div class="slide"><pre class="prettyprint"><code>
+                take 10 [1..]
+             </code></pre></div>
+           <div class="slide"><li>Infinite Code!</li></div>
+        </ul>
+        </section>
+
+        <section class="slide" id="purity">
+        <h2>Super Pure</h2>
+        <ul>
+          <div class="slide"><li>Purity Enables Code to be Run in Many Orders</li></div>
+          <div class="slide"><h3>This is awesome coupled with Laziness</h3></div>
+        </ul>
+        </section>
+
+      <section class="slide" id="learn">
+      <h2>So You Wana Learn?</h2>
+      <ul>
+        <div class="slide"><li><a href="http://learnyouahaskell.com/">Haskell</a></li></div>
+       </ul>
+       </section>
+
+
 
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="../deckjs/core/deck.core.js"></script>
