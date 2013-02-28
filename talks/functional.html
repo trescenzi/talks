@@ -108,8 +108,8 @@
       <section class="slide" id="declarative">
         <h2>Declarative</h2>
         <blockquote>A programming paradigm that expresses the logic of a computation without describing its control flow</blockquote>
-        <section class="slide"><center><h3>Lets make a list of numbers 1-5</h3></center></section>
-        <section class="slide">
+        <div class="slide"><center><h3>Lets make a list of numbers 1-5</h3></center></div>
+        <div class="slide">
           <h3>Declarative</h3>
           <pre class="prettyprint"><code>
             let x = take 5 [1..]
@@ -117,15 +117,53 @@
           <h3>Imperative</h3>
           <pre class="prettyprint"><code>
             int x = new int[5];
-            for(int i=1; i<=5; i++)
-              x[i] = i
+            for(int i=1; i<6; i++)
+              x[i] = i;
           </code></pre>
-        </section>
+        </div>
       </section>
 
       <section class="slide" id="languages">
-      <div class="vcenter">Moving forward I'm going to be using <h3>Java</h3> for imperative examples and <h3>Haskell</h3> for declarative examples</div>
+      <div class="vcenter">Moving forward I'm going to be using <section class="slide"><h3>Java</h3>
+        for imperative examples</section> and <div class="slide"><h3>Haskell</h3> for functional examples</div></div>
       </section>
+
+      <section class="slide" id="state">
+        <h2>State & Purity</h2>
+        <ul>
+          <section class="slide"><li>Immutability</li></section>
+          <section class="slide"><li>Little to no side effects</li></section>
+          <div class="slide"><li>Pure functions always act the same</li></section>
+        </ul>
+      </section> 
+
+      <section class="slide" id="state">
+        <h2>First Class Functions</h2>
+        <ul>
+          <section class="slide"><li>Functions are first-class citizens!</li>
+          <section class="slide"><center><h3>This means you can pass functions into and return functions from other functions</h3></center></slide>
+          <section class="slide"><pre class="prettyprint"><code>
+            square x = x * x
+            map square $ take 5 [1..]
+            [1,4,9,16,25]
+          </code></pre></section>
+        </ul>
+      </section>
+
+      <section class="slide" id="why">
+        <h2>Why Do We Care?</h2>
+        <ul>
+          <div class="slide"><li>Purity provides protection</li></div>
+          <div class="slide"><li>Declarative programs are easier to read than imperative ones</li></div>
+          <div class="slide"><li>First class functions reduce levels of code complexity</li></div>
+        </ul>
+      </section>
+
+      <section class="slide" id="concurrency">
+        <h2>Concurrency</h2>
+
+      </section>
+
 
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="../deckjs/core/deck.core.js"></script>
